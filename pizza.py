@@ -4,6 +4,11 @@ class Pizza:
     # Atributos de clase
     precio = 10000
     tamaño = "Familiar"
+
+    def __init__(self):
+        self.ingredientes_vegetales = []
+        self.ingrediente_proteico = ""
+        self.tipo_masa = ""
     
     @staticmethod
     def validar_ingrediente(ingrediente, opciones):
