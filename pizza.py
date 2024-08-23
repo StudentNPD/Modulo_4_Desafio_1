@@ -22,7 +22,17 @@ class Pizza:
                 print("Ingrediente no válido. Solo esta permitido: tomate, aceitunas, champiñones.")
 
         # Se pide ingrediente proteico
-        proteico = input(f"Elige el ingrediente protéico ({', '.join(self.proteicos_disponibles)}): ").lower()
+       while True:
+            proteico = input(f"Elige el ingrediente proteico ({', '.join(self.proteicos_disponibles)}): ").lower()
+            if self.validar_ingrediente(proteico, self.proteicos_disponibles):
+                self.ingrediente_proteico = proteico
+                break
+            print("Ingrediente no válido. Pollo, carne, carne vegetal")
 
         # Seleccion de masa
-        masa = input(f"Elige el tipo de masa ({', '.join(self.tipos_masa)}): ").lower()
+       while True:
+            masa = input(f"Elige el tipo de masa ({', '.join(self.tipos_masa)}): ").lower()
+            if self.validar_ingrediente(masa, self.tipos_masa):
+                self.tipo_masa = masa
+                break
+            print("Tipo de masa no válido. tradicional o delgada.")
