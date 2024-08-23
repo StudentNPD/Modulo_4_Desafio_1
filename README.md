@@ -18,7 +18,7 @@ En caso de que el elemento ingresado como primer argumento se encuentre entre la
 
 
 ## Instrucciones para Ejecutar el Proyecto
-python 
+python evaluaciones.py
 
 
 ### Prerrequisitos o Dependencias
@@ -29,4 +29,6 @@ Lenguaje de programación Python 3.12.4
 
 
 ### Autor
+Francisco Colomer
 Francisco Monroy
+Natalia Peña
