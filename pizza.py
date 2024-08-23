@@ -38,7 +38,11 @@ class Pizza:
         # Seleccion de masa
        while True:
             masa = input(f"Elige el tipo de masa ({', '.join(self.masas_posibles)}): ").lower()
-            if self.validar_ingrediente(masa, self.masas_posible):
+            if self.validar_ingrediente(masa, self.masas_posibles):
                 self.tipo_masa = masa
                 break
-            print("Tipo de masa no válido. tradicional o delgada.")
+            print("Tipo de masa no válido. Intenta de nuevo.")
+
+
+        #valida si esta ok la pizza (True)
+        self.es_valido = len(self.ingredientes_vegetales) == 2 and self.ingrediente_proteico and self.tipo_masa
