@@ -1,5 +1,5 @@
 from pizza import Pizza
-from ingredientes import salsas_posibles, vegetales_posibles
+from ingredientes import salsas_posibles
 #a
 print("Precio:", Pizza.precio)
 print("Tamaño:", Pizza.tamaño)
