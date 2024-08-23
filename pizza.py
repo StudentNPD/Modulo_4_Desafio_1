@@ -4,6 +4,7 @@ class Pizza:
     # Atributos de clase
     precio = 10000
     tamaño = "Familiar"
+    es_valido = False
 
     def __init__(self):
         self.ingredientes_vegetales = []
