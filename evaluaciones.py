@@ -16,7 +16,7 @@ print("¿Está 'salsa de tomate' en la lista? :", Pizza.validar_ingrediente("sal
 mi_pizza = Pizza()
 # llamar a la función pedido_pizza
 mi_pizza.pedido_pizza()
-
+print(mi_pizza)
 #d
 # Usar la función print(), para que al ejecutar el script, luego de que el usuario
 # haya ingresado los ingredientes y tipo de masa, se muestre en pantalla los
