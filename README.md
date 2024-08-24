@@ -1,4 +1,4 @@
-# Ejercicio 1 Modulo4
+# Ejercicio 1 Modulo 4
 
 
 ## Actividad 
@@ -16,17 +16,22 @@ En caso de que el elemento ingresado como primer argumento se encuentre entre la
      d. Usar la función print(), para que al ejecutar el script, luego de que el usuario haya ingresado los ingredientes y tipo de masa, se muestre en pantalla los ingredientes vegetales, el ingrediente proteico y el tipo de masa de la instancia creada en el paso anterior, y si esa instancia es una pizza válida o no. 
      e. Usar la función print(), para mostrar en pantalla si la clase Pizza es una pizza válida o no, haciendo uso del atributo creado en el requerimiento 4, sin crear una instancia de la clase. En este punto, la ejecución del script debe mostrar un error (todos los pasos anteriores se deben haber ejecutado correctamente).
 
+------------------------------------------
 
-## Instrucciones para Ejecutar el Proyecto
-python evaluaciones.py
+## Prerequisitos
 
+- Sistema Operativos: Windows 10, 11, Linux, iOS
+- Python 3.12
 
-### Prerrequisitos o Dependencias
-Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
+## Ejecución
 
-Sistema Operativo  Windows 10, linux, Mac
-Lenguaje de programación Python 3.12.4
+***Windows***
 
+`python evaluaciones.py`
+
+***Linux & iOS***
+
+`python3 evaluaciones.py`
 
 ------------------------------------------
 ## Colaboradores
