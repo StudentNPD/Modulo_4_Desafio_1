@@ -7,12 +7,13 @@ class Pizza:
     vegetales_disponibles = vegetales_posibles
     proteicos_disponibles = proteicos_posibles
     tipos_masa = masas_posibles
-    es_valido = False
+    #es_valida = False
 
     def __init__(self):
         self.ingredientes_vegetales = []
         self.ingrediente_proteico = ""
         self.tipo_masa = ""
+        self.es_valida = False
 
     @classmethod
     def validar_ingrediente(cls, ingrediente, opciones):
@@ -47,4 +48,4 @@ class Pizza:
             print("Tipo de masa no válido. Intenta de nuevo.")
 
         # Validar la pizza
-        self.es_valida = len(self.ingredientes_vegetales) == 2 and self.ingrediente_proteico and self.tipo_masa
+        self.es_valida = len(self.ingredientes_vegetales) == 2 and self.validar_ingrediente(proteico,proteicos_posibles) and self.validar_ingrediente(masa,masas_posibles)
