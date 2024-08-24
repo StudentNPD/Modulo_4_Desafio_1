@@ -28,7 +28,8 @@ Sistema Operativo  Windows 10, linux, Mac
 Lenguaje de programación Python 3.12.4
 
 
-### Autor
-Francisco Colomer
-Francisco Monroy
-Natalia Peña
+------------------------------------------
+## Colaboradores
+- [Francisco Colomer](https://github.com/Cy5k0) 
+- [Francisco Monroy](https://github.com/fmonroy75)
+- [Natalia Peña](https://github.com/StudentNPD)
